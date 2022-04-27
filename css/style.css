@@ -6,6 +6,11 @@ body {
     font-size: larger;
 }
 
+.begin {
+    font-size: 30px;
+    margin-top: 5rem;
+}
+
 .header {
     display: flex;
     flex-flow: row nowrap;
@@ -26,6 +31,10 @@ body {
 }
 
 .navbar ul li:nth-child(1) {
+    border-right: 1px solid white;
+}
+
+.navbar ul li:nth-child(2) {
     border-right: 1px solid white;
 }
 
