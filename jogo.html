@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!--favicon-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Pong</title>
+</head>
+<body>
+    <header class="header">
+        <h1><a href="jogo.html" class="link1" onclick="alert('Partida Reiniciada')">Pong</a></h1>
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="comoJogar.html" class="links">
+                        Como jogar
+                    </a>
+                </li>
+                <li>
+                    <a href="sobreSite.html" class="links">
+                        Sobre o site
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html" class="links">
+                        Voltar
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="showcase">
+        <canvas id="canvas" width="800" height="500"></canvas>
+        <script src="pong.js"></script>
+    </div>
+</body>
+</html>
