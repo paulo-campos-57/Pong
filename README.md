@@ -1,2 +1,4 @@
 # Pong
-Copy of Pong from atari
+Copy of Pong from Atari
+
+Cópia do Pong do Atari
