@@ -19,6 +19,25 @@ body {
     text-align: center;
 }
 
+.navbarJ ul {
+    font-size: larger;
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+
+.navbarJ ul li{
+    padding: 0 20px;
+}
+
+.navbarJ ul li:nth-child(1) {
+    border-right: 1px solid white;
+}
+
+.navbarJ ul li:nth-child(2) {
+    border-right: 1px solid white;
+}
+
 .navbar ul {
     font-size: larger;
     display: flex;
@@ -31,10 +50,6 @@ body {
 }
 
 .navbar ul li:nth-child(1) {
-    border-right: 1px solid white;
-}
-
-.navbar ul li:nth-child(2) {
     border-right: 1px solid white;
 }
 
