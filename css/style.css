@@ -65,12 +65,22 @@ body {
     color: white;
 }
 
-.links {
+.itensMenu {
     text-decoration: none;
     color: white;
 }
 
-.links:hover {
+.itensMenu:hover {
     cursor: pointer;
     color: dodgerblue;
+}
+
+.links {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.links:hover {
+    cursor: pointer;
+    color: lightblue;
 }
